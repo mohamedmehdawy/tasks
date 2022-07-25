@@ -135,4 +135,15 @@ html[lang=ar] nav#main-nav .links .top {
   padding-left: unset;
   padding-right: 20px;
 }
+html[lang=ar] nav#main-nav .links .top .left form button {
+  right: unset;
+  left: 0;
+}
+html[lang=ar] nav#main-nav .links .top .left form button i {
+  transform: rotate(280deg);
+}
+html[lang=ar] nav#main-nav .links .bottom ul li {
+  border-left: none;
+  border-right: 1px solid #d1d1d1;
+}
 /*# sourceMappingURL=main.css.map */

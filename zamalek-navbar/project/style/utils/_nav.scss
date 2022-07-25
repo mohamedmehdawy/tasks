@@ -146,10 +146,23 @@ nav#main-nav {
 }
 
 html[lang=ar] {
-    nav#main-nav .links .top {
-        padding: {
-            left: unset;
-            right: 20px;
+    nav#main-nav .links {
+        .top {
+            padding: {
+                left: unset;
+                right: 20px;
+            }
+            .left form button {
+                right: unset;
+                left: 0;
+                i {
+                    transform: rotate(280deg);
+                }
+            }
+        }
+        .bottom ul li {
+            border-left: none;
+            border-right: 1px solid #d1d1d1;
         }
     }
 }
