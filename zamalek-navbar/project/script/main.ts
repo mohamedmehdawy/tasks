@@ -1,2 +1,7 @@
-import fixSocail from "./nav/fixSocail.js";
-fixSocail();
+import nav from "./nav/index.js";
+
+function main() {
+    nav();
+}
+
+main();
