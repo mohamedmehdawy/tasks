@@ -1,0 +1,138 @@
+nav#main-nav {
+  width: 100%;
+  display: flex;
+  border: 1px solid #d1d1d1;
+  border-bottom: none;
+}
+nav#main-nav .logo {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav#main-nav .logo img {
+  width: 100px;
+  height: 100px;
+}
+nav#main-nav .links {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+nav#main-nav .links .top {
+  height: 40px;
+  background: red;
+  padding-left: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav#main-nav .links .top .right .register {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+nav#main-nav .links .top .right .register ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav#main-nav .links .top .right .register ul li a {
+  background: black;
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+nav#main-nav .links .top .right .register ul li a span {
+  color: black;
+  background: #fff;
+  border-radius: 50%;
+}
+nav#main-nav .links .top .left {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+nav#main-nav .links .top .left form {
+  height: 20px;
+  display: flex;
+  position: relative;
+  margin: 0 10px;
+}
+nav#main-nav .links .top .left form input {
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  padding: 4px 5px;
+  font-weight: bold;
+}
+nav#main-nav .links .top .left form input::-webkit-search-decoration, nav#main-nav .links .top .left form input::-webkit-search-cancel-button, nav#main-nav .links .top .left form input::-webkit-search-results-button, nav#main-nav .links .top .left form input::-webkit-search-results-decoration {
+  -webkit-appearance: none;
+}
+nav#main-nav .links .top .left form button {
+  all: unset;
+  padding: 0 5px;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+nav#main-nav .links .top .left .socail {
+  height: 100%;
+  background-color: #fff;
+  clip-path: polygon(25% 0%, 75% 0%, 100% 100%, 100% 100%, 0 100%, 0 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav#main-nav .links .top .left .socail ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+nav#main-nav .links .top .left .socail ul li {
+  padding: 0 5px;
+}
+nav#main-nav .links .top .left .socail ul li a {
+  color: black;
+}
+nav#main-nav .links .bottom {
+  width: 100%;
+}
+nav#main-nav .links .bottom ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+nav#main-nav .links .bottom ul li {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-left: 1px solid #d1d1d1;
+}
+nav#main-nav .links .bottom ul li a {
+  height: 100%;
+  width: 100%;
+  color: black;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+html[lang=ar] nav#main-nav .links .top {
+  padding-left: unset;
+  padding-right: 20px;
+}
+/*# sourceMappingURL=main.css.map */
